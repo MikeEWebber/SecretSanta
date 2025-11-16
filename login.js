@@ -1,6 +1,7 @@
 import {validate, isAdmin} from "./Data/logins.js";
 import { getIndexForName } from "./Data/players.js";
-import { getPresentFor } from "./utils/localStorage.js";
+// import { getPresentFor } from "./utils/localStorage.js";
+import {resultsStatic, getStaticResults} from "./Data/results_static.js";
 
 document.querySelector('.js-login-button').addEventListener('click', () =>{
   logIn()
@@ -48,7 +49,7 @@ function getPresentDetails(){
   // return recipient
   let loginName = document.querySelector(".js-login-input-name").value;
   let index = getIndexForName(loginName);
-  return getPresentFor(index);
+  return getStaticResults(index);
 
 } 
 

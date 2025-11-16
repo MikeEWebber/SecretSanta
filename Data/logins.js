@@ -41,7 +41,7 @@ const loginDetails = [{
   phrase: "player",
   type: "user"
 },{
-  name: "Hayden",
+  name: "Haydn",
   phrase: "surfer",
   type: "user"
 }];
