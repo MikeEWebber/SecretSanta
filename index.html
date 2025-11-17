@@ -3,24 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Custom styling takes priority over bootstrap -->
   <link rel="Stylesheet" href="./styles/style.css"/>
   <link rel="Stylesheet" href="./styles/index.css"/>
+  
   <title>Secret Santa </title>
 </head>
 <body>
-  <div>
-    <h1>Webber and James Family Secret Santa</h1>
-    
-    <div class="login-container">
-      <div class="containerDiv1">
-        <label class="username-label">Username</label><input class="login-input js-login-input-name"></input>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-1"></div>
+      <div class="col-xs-10">
+        <h1>Webber and James Family Secret Santa</h1>
       </div>
-      <div class="containerDiv2">
-        <label class="phrase-label">Pass Phrase</label><input class="login-input js-login-input-phrase"></input>
+      <div class="col-xs-1"></div>
+    </div>
+       
+    <div class="row">
+      <div class="col-lg-3 col-md-2 col-sm-1 col-xs-2"></div>
+      
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-8">
+        <label class="username-label">Username</label>
       </div>
-      <div class="containerDiv3">
+
+      <div class="col-lg-2 col-md-2 col-sm-1 col-xs-2"></div>
+      
+      <div div class="col-lg-2 col-md-3 col-sm-5 col-xs-10">
+        <input class="login-input js-login-input-name"></input>
+      </div>
+      
+      <div class="col-lg-3 col-md-2 col-sm-1 col-xs-2"></div> 
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 col-md-2 col-sm-1 col-xs-2"></div>
+      
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-8">
+        <label class="phrase-label">Pass Phrase</label>
+      </div>
+
+      <div class="col-lg-2 col-md-2 col-sm-1 col-xs-2"></div>
+      
+      <div div class="col-lg-2 col-md-3 col-sm-5 col-xs-10">
+        <input class="login-input js-login-input-phrase"></input>
+      </div>
+      
+      <div class="col-lg-3 col-md-2 col-sm-1 col-xs-2"></div> 
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-2 col-xs-1"></div>
+
+      <div class="col-lg-4 col-md-4 col-sm-8 col-xs-10">
         <Button class="login-button js-login-button">Click to reveal</Button>
-      </div>
+      </div>    
+      
+      <div class="col-lg-4 col-md-4 col-sm-2 col-xs-1"></div> 
     </div>
 
     <div class="results-text js-result-text">
