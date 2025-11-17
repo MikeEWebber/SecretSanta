@@ -18,7 +18,7 @@ if (presents.length > 0){
 console.log(presents);
 
 document.querySelector('.js-return-button').addEventListener('click', () =>{
-  window.location.replace("./login.html");
+  window.location.replace("./index.html");
 });
 
 function initialiseArrays(){

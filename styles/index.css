@@ -1,0 +1,91 @@
+.username-label{
+    font-size: 20px;
+    margin: 10px 80px 10px 10px;
+}
+
+.phrase-label{
+    font-size: 20px;
+    margin: 10px 63px 10px 8px
+
+}
+
+.login-button{
+  background-color: aqua;
+  width: 300px;
+  height: 50px;
+  border: 1px;
+  border-radius: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 40px 200px;
+  display: inline;
+}
+
+.login-input{
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: 1px;
+  padding-left: 10px;
+}
+
+.login-container{
+  display: flexbox;
+  margin-top: 100px;
+  flex-direction: column;
+ justify-content: center;
+
+}
+
+.containerDiv1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40px;
+}
+
+.containerDiv2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40px;
+}
+
+.containerDiv3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.hide-button{
+  display: none;
+}
+
+
+.results-text{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.admin-button{
+  background-color: aqua;
+  width: 300px;
+  height: 50px;
+  border: 1px;
+  border-radius: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 40px 200px;
+  display: none;
+}
+
+.admin-link{
+  align-items: center;
+  align-content: center;
+}
+
+.show-admin-button{
+  display: block;
+}
