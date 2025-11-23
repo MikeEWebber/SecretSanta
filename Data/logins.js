@@ -44,6 +44,38 @@ const loginDetails = [{
   name: "Haydn",
   phrase: "surfer",
   type: "user"
+},{
+  name: "EvieW",
+  phrase: "owl",
+  type: "user"
+},{
+  name: "Maria",
+  phrase: "mclovin",
+  type: "user"
+},{
+  name: "Lily",
+  phrase: "aibaby",
+  type: "user"
+},{
+  name: "Bee",
+  phrase: "twink",
+  type: "user"
+},{
+  name: "Soph",
+  phrase: "hughjackman",
+  type: "user"
+},{
+  name: "Wiki",
+  phrase: "loganpaul",
+  type: "user"
+},{
+  name: "Ruby",
+  phrase: "charliekirk",
+  type: "user"
+},{
+  name: "Lucy",
+  phrase: "metalica",
+  type: "user"
 }];
 
 export function validate(loginName, loginPhrase){
